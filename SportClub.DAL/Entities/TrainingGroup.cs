@@ -10,13 +10,13 @@ namespace SportClub.DAL.Entities
     {
         public int Id { get; set; }
         public string Name { get; set; }
-        public TimeT Time { get; set; }
+        public string Time { get; set; }
         public int Day { get; set; }
         public Room Room { get; set; }
         public Coach Coach { get; set; }
         public Group Group { get; set; }
         public int Number { get; set; }
-        public Speciality Speciality { get; set; }
+        public Speciality? Speciality { get; set; }
         public bool available { get; set; } = true;
     }
 }
